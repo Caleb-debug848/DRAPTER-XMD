@@ -3,7 +3,7 @@ const fs = require("fs");
 require("dotenv").config();
 
 const config = {
-  SESSION_ID: process.env.SESSION_ID || "nector~14YUhBSJ#eOWaWeoGMpOyvONCz9swFtZ8q24InOPtgV21vPrPKyg",
+  SESSION_ID: process.env.SESSION_ID || "nector~4tISkCoL#baAatMP2bKd3b3oz8gOhTrVQh6D4cdjIkBy6DC29rEw",
   PREFIX: process.env.PREFIX || '*',
   AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN !== undefined ? process.env.AUTO_STATUS_SEEN === 'true' : true, 
   AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY !== undefined ? process.env.AUTO_STATUS_REPLY === 'true' : true,
@@ -25,7 +25,7 @@ const config = {
   MENU_IMAGE: process.env.MENU_IMAGE || "https://files.catbox.moe/mw30hn.jpg",
   DESCRIPTION: process.env.DESCRIPTION || "© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ⓃⒺCⓉOR🍯",
   OWNER_NAME: process.env.OWNER_NAME || "ⓃⒺCⓉOR🍯",
-  OWNER_NUMBER: process.env.OWNER_NUMBER || "254725474072",
+  OWNER_NUMBER: process.env.OWNER_NUMBER || "237695073477",
   GEMINI_KEY: process.env.GEMINI_KEY || "AIzaSyCUPaxfIdZawsKZKqCqJcC-GWiQPCXKTDc",
   WELCOME: process.env.WELCOME !== undefined ? process.env.WELCOME === 'true' : false, 
 };
